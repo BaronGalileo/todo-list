@@ -1,0 +1,26 @@
+
+.todo-list-wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    .delete-todos {
+        width: 50%;
+    }
+}
+.todo-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+
+    .isRedy {
+        text-decoration-line: line-through;
+        text-decoration-color: red;
+        color: rgb(42, 87, 0);
+    }
+
+
+    
+}

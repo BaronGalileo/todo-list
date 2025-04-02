@@ -1,0 +1,25 @@
+@use 'color' as col;
+
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    background-color: col.$background__color_1;
+    color: col.$font__color_1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#root, .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
